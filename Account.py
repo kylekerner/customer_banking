@@ -7,11 +7,11 @@ class Account:
         self.interest = interest
 
     # This method sets the balance of the account.
-    def set_balance(self, balance):
+    def set_balance(self, new_balance):
         """Sets the balance for the for the account"""
-        self.balance = balance
+        self.balance = new_balance
 
     # The method sets the interest gained for the account.
-    def set_interest(self, interest):
+    def set_interest(self, new_interest):
         """Sets the interest gained for the the account"""
-        self.interest = interest
+        self.interest = new_interest
